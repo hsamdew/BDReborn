@@ -41,7 +41,7 @@ function load_data(filename)
 	local s = f:read('*all')
 	f:close()
 	local data = JSON.decode(s)
-	return data
+	return dataح8
 end
 
 function save_data(filename, data)
@@ -83,7 +83,8 @@ function create_config( )
 	    "fun",
 	},
     sudo_users = {
-   157059515,
+   317576202,
+   315017219,
    sudo_id
 },
     admins = {},
